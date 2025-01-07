@@ -1,4 +1,3 @@
-   
 
 window.addEventListener("resize", function() {
     const variable1 =  this.document.getElementById("options")

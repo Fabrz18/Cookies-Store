@@ -4,9 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./resources/styles/style.css">
-    <link rel="stylesheet" href="./resources/styles/main-navigation.css">
-    <link rel="stylesheet" href="./resources/styles/main-navigation-login.css">
+
+     <!--Aqui van los styles del header-->
+    <link rel="stylesheet" href="./resources/styles/header/header-navigation.css">
+    <link rel="stylesheet" href="./resources/styles/header/header-navigation-login.css">
+
+    <!--Aqui van los styles del main-->
+    <link rel="stylesheet" href="./resources/styles/main/main_time_clock.css">
+
+     <!--Aqui van los scripts-->
     <script src="./resources/scripts/script.js"></script>
+    <script src="./resources/scripts/script_hora.js"></script>
+    <script src="./resources/scripts/script_reservation_options.js"></script>
+
     <title>Main</title>
 </head>
 <body>
@@ -17,10 +27,10 @@
                     <li><a href="#" class="principal-navigation-options"><img src="./resources/images/icon/icon-navigation.jpg" alt="principal-logo" id="logo-ico"></a></li>
             </ul>
             <ul id="options">
-                    <li><a href="#" class="principal-navigation-options">Inicio</a></li>                    
-                    <li><a href="#" class="principal-navigation-options">Recetas</a></li>                    
-                    <li><a href="#" class="principal-navigation-options">Help</a></li>
-                    <li><a href="#" class="principal-navigation-options">Libro Reclamaciones</a></li>
+                    <li><a href="./resources/pages/started.html" class="principal-navigation-options">Inicio</a></li>                    
+                    <li><a href="./resources/pages/recipes.html" class="principal-navigation-options">Recetas</a></li>                    
+                    <li><a href="./resources/pages/help.html" class="principal-navigation-options">Help</a></li>
+                    <li><a href="./resources/pages/libro_reclamaciones.html" class="principal-navigation-options">Libro Reclamaciones</a></li>
             </ul>
             <ul id="icon">
                 <li><a href="#" class="buttons-login" id="login-button">Login</a></li>
@@ -31,9 +41,19 @@
             </ul>
         </nav>
     </header>
-    <main>ESTE ES EL MAIN
-        
+    <main>
+        <div class="time-div-clock" id="time-div-clock-id">
+            <span id="time-div">Time loading...</span>
+            <a href="#" id="emergency-reservation"><img src="./resources/images/icon/location-icon-vector.jpg" alt="location-icon"/></a>
+            <div class="reservation-options" id="reservation-options-id">
+                
+                <a href="#" class="reservation-place-available"><img src="./resources/images/icon/location-icon-vector.jpg" alt="location-icon"><span>Place available</span></a>
+                <a class="reservation-place-available" id="button-reservation" href="#">Order Here</a>
+            </div>
         </div>
+        
+        ESTE ES EL MAIN
+        
     </main>
     <footer>ESTE ES EL FOOTER
         
