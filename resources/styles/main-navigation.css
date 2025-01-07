@@ -5,6 +5,7 @@ header .principal-navigation nav{
     align-items: center;
     position: relative;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 /* Esta parte es de las opciones: Inicio, Rewards, Help...*/
@@ -13,6 +14,7 @@ header .principal-navigation nav #options{
     align-items: center;
     gap: 40px;
     list-style-type: none; 
+    margin-right: auto;
 }
 
 /*Aqui va la parte de login*/
@@ -21,15 +23,26 @@ header .principal-navigation nav #icon{
     align-items: center;
     gap: 20px;
     list-style-type: none;
-    margin: auto;
+    margin-right: 2%;
+}
+header .principal-navigation nav #logo{
+    list-style-type: none;
+    width:  69px;
+    height: 69px;
+    transition: none;
+}
+header .principal-navigation nav #logo img{
+    width:  69px;
+    height: 69px;
+    transition: none;
 }
 
 header .principal-navigation .principal-navigation-options{
-    color: rgb(206, 163, 163);
+    color: #000000;
     text-decoration: none;
 }
 
 header .principal-navigation .principal-navigation-options:hover{
-    color: rgb(116, 65, 65);
+    color: #744141;
     text-decoration: none;
 }
