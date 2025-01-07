@@ -1,11 +1,14 @@
 /* Esta parte es del todo el menu*/
-main .principal-navigation nav{
+
+header .principal-navigation nav{
     display: flex;
     align-items: center;
+    position: relative;
+    flex-direction: row;
 }
 
 /* Esta parte es de las opciones: Inicio, Rewards, Help...*/
-main .principal-navigation nav #options{
+header .principal-navigation nav #options{
     display: flex;
     align-items: center;
     gap: 40px;
@@ -13,7 +16,7 @@ main .principal-navigation nav #options{
 }
 
 /*Aqui va la parte de login*/
-main .principal-navigation nav #icon{
+header .principal-navigation nav #icon{
     display: flex;
     align-items: center;
     gap: 20px;
@@ -21,12 +24,12 @@ main .principal-navigation nav #icon{
     margin: auto;
 }
 
-main .principal-navigation .principal-navigation-options{
-    color: white;
+header .principal-navigation .principal-navigation-options{
+    color: rgb(206, 163, 163);
     text-decoration: none;
 }
 
-main .principal-navigation .principal-navigation-options:hover{
+header .principal-navigation .principal-navigation-options:hover{
     color: rgb(116, 65, 65);
     text-decoration: none;
 }

@@ -1,0 +1,25 @@
+/*Aqui van los estilos que se aplican a los botones login en el main*/
+
+.buttons-login{
+    text-decoration: none;
+}
+
+#login-button{
+    color: black;
+    border-style: solid;
+    border-radius: 18%;
+    border-width: 1px;
+    padding: 7px 16px;
+    text-align: center;
+}
+
+#signup-button{
+    color: white;
+    background-color: black;
+    border-color: black;
+    border-style: solid;
+    border-radius: 18%;
+    border-width: 1px;
+    padding: 7px 16px;
+    text-align: center;
+}
