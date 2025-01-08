@@ -12,13 +12,14 @@
     <link rel="stylesheet" href="./resources/styles/components/header.css">
     <!--Aqui van los styles del main-->
     <link rel="stylesheet" href="./resources/styles/index/main/main_time_clock.css">
-
+    <link rel="stylesheet" href="./resources/styles/index/main/productsStyles.css">
      <!--Aqui van los scripts-->
     <script src="./resources/scripts/pages/index/script.js"></script>
     <script src="./resources/scripts/pages/index/script_hora.js"></script>
     <script src="./resources/scripts/pages/index/script_reservation_options.js"></script>
     <script src="./resources/scripts/components/header.js"></script>
-    <script src="resources/scripts/global.js"></script>
+    <script src="./resources/scripts/global.js"></script>
+    <script src="./resources/scripts/pages/index/scriptNewProducst.js"></script>
     <title>Main</title>
 </head>
 <body>
@@ -29,7 +30,7 @@
                     <li><a href="#" class="principal-navigation-options"><img src="./resources/images/icon/icon-navigation.jpg" alt="principal-logo" id="logo-ico"></a></li>
             </ul>
             <ul id="options">
-                    <li><a href="./index.html" class="principal-navigation-options" id="index">Inicio</a></li>                    
+                    <li><a href="#" class="principal-navigation-options" id="index">Inicio</a></li>                    
                     <li><a href="./resources/pages/recipes.html" class="principal-navigation-options" >Recetas</a></li>                    
                     <li><a href="./resources/pages/help.html" class="principal-navigation-options">Help</a></li>
                     <li><a href="./resources/pages/libro_reclamaciones.html" class="principal-navigation-options">Libro Reclamaciones</a></li>
@@ -43,7 +44,7 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main id="main">
         <div class="time-div-clock" id="time-div-clock-id">
             <span id="time-div">Time loading...</span>
             <a href="#" id="emergency-reservation"><img src="./resources/images/icon/location-icon-vector.jpg" alt="location-icon"/></a>
@@ -53,27 +54,10 @@
                 <a class="reservation-place-available" id="button-reservation" href="#">Order Here</a>
             </div>
         </div>
-
-        <section id="section">
-            <a href="#" onclick="navigateTo('/ecommerce/section')">Sección Ecommerce</a>
-        <a href="#" onclick="navigateTo('/ecommerce/about')">Acerca de</a>
-        </section>
-        <div id="content"></div>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi non id tempora voluptatem aperiam incidunt sint neque aspernatur. Exercitationem aliquid, in aspernatur commodi ratione corporis quos minus temporibus consequatur veritatis.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolores commodi adipisci minima eaque illum repudiandae exercitationem tempora aperiam quos? Fugiat magni repudiandae provident quidem ratione exercitationem soluta sint qui.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quaerat autem libero amet tempora atque quia doloremque delectus nulla accusamus at officia, molestiae omnis consequatur illo quam alias voluptate expedita?</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi non id tempora voluptatem aperiam incidunt sint neque aspernatur. Exercitationem aliquid, in aspernatur commodi ratione corporis quos minus temporibus consequatur veritatis.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolores commodi adipisci minima eaque illum repudiandae exercitationem tempora aperiam quos? Fugiat magni repudiandae provident quidem ratione exercitationem soluta sint qui.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quaerat autem libero amet tempora atque quia doloremque delectus nulla accusamus at officia, molestiae omnis consequatur illo quam alias voluptate expedita?</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi non id tempora voluptatem aperiam incidunt sint neque aspernatur. Exercitationem aliquid, in aspernatur commodi ratione corporis quos minus temporibus consequatur veritatis.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolores commodi adipisci minima eaque illum repudiandae exercitationem tempora aperiam quos? Fugiat magni repudiandae provident quidem ratione exercitationem soluta sint qui.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quaerat autem libero amet tempora atque quia doloremque delectus nulla accusamus at officia, molestiae omnis consequatur illo quam alias voluptate expedita?</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi non id tempora voluptatem aperiam incidunt sint neque aspernatur. Exercitationem aliquid, in aspernatur commodi ratione corporis quos minus temporibus consequatur veritatis.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolores commodi adipisci minima eaque illum repudiandae exercitationem tempora aperiam quos? Fugiat magni repudiandae provident quidem ratione exercitationem soluta sint qui.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quaerat autem libero amet tempora atque quia doloremque delectus nulla accusamus at officia, molestiae omnis consequatur illo quam alias voluptate expedita?</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi non id tempora voluptatem aperiam incidunt sint neque aspernatur. Exercitationem aliquid, in aspernatur commodi ratione corporis quos minus temporibus consequatur veritatis.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolores commodi adipisci minima eaque illum repudiandae exercitationem tempora aperiam quos? Fugiat magni repudiandae provident quidem ratione exercitationem soluta sint qui.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quaerat autem libero amet tempora atque quia doloremque delectus nulla accusamus at officia, molestiae omnis consequatur illo quam alias voluptate expedita?</p>
+        <div id="content">
+            
+        </div>
+        
     </main>
     <footer>
         ESTE ES EL FOOTER

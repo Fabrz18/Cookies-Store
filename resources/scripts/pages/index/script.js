@@ -6,7 +6,7 @@ window.addEventListener("resize", function() {
     const logo = this.document.getElementById("logo")
     const logo_ico = this.document.getElementById("logo-ico")
     if (window.innerWidth <= 500) {
-        console.log("El ancho de la ventana es menor o igual a 450px.");
+        
         variable1.style.display  = "none";
         variable2.style.display  = "none";
         variable3.style.display  = "flex";
@@ -17,7 +17,7 @@ window.addEventListener("resize", function() {
         logo_ico.style.height = "38px"
 
         } else {
-        console.log("El ancho de la ventana es mayor a 600px.");
+        
         variable1.style.display = "flex"
         variable2.style.display = "flex"
         variable3.style.display = "none"
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const logo = this.document.getElementById("logo")
     const logo_ico = this.document.getElementById("logo-ico")
     if (window.innerWidth <= 500) {
-        console.log("El ancho de la ventana es menor o igual a 450px.");
+        
         variable1.style.display  = "none";
         variable2.style.display  = "none";
         variable3.style.display  = "flex";
@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
         logo_ico.style.height = "38px"
 
         } else {
-        console.log("El ancho de la ventana es mayor a 600px.");
+        
         variable1.style.display = "flex"
         variable2.style.display = "flex"
         variable3.style.display = "none"
