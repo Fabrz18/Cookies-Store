@@ -13,3 +13,7 @@ body{
     margin: 0px;
     padding: 0px;
 }
+footer {
+    width: 100%;
+    background-color: red;
+}

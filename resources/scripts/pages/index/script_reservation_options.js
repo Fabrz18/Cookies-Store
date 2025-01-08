@@ -3,13 +3,13 @@ window.addEventListener("resize", function() {
     const reservation_items = document.getElementById("reservation-options-id")
     const truest_saver = document.getElementById("emergency-reservation")
     if (window.innerWidth <= 400) {
-        console.log("El ancho de la ventana es menor o igual a 300px.");
+        
 
         logo_ico.style.fontSize = "10px"
         reservation_items.style.display = "none"
         truest_saver.style.display = "flex"
         } else {
-        console.log("El ancho de la ventana es mayor a 600px.");
+        
 
         logo_ico.style.fontSize = "20px"
         reservation_items.style.display = "flex"
@@ -22,13 +22,13 @@ document.addEventListener("DOMContentLoaded", function () {
     const reservation_items = document.getElementById("reservation-options-id")
     const truest_saver = document.getElementById("emergency-reservation")
     if (window.innerWidth <= 400) {
-        console.log("El ancho de la ventana es menor o igual a 450px.");
+        
         
         logo_ico.style.fontSize = "10px"
         reservation_items.style.display = "none"
         truest_saver.style.display = "flex"
         } else {
-        console.log("El ancho de la ventana es mayor a 600px.");
+        
         logo_ico.style.fontSize = "20px"
         reservation_items.style.display = "flex"
         truest_saver.style.display = "none"

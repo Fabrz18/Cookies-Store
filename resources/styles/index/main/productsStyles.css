@@ -29,8 +29,8 @@ main .content {
 }
 
 #main .products img{
-    width: 200px;
-    height: 200px;
+    width: 72%;
+    height: 80%;
     margin: auto;
     object-fit: contain;
 }

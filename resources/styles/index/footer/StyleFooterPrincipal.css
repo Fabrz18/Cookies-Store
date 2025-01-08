@@ -1,0 +1,50 @@
+footer {
+    background-color: #f4f4f4; /* Color de fondo para destacar el footer */
+    padding: 20px; /* Espaciado interno */
+    margin-top: 20px; /* Separación del contenido principal */
+    text-align: center; /* Centrar el texto */
+}
+
+footer .footer-row {
+    max-width: 1200px; /* Ancho máximo para el contenido */
+    margin: 0 auto; /* Centrado horizontal */
+    padding: 10px;
+}
+
+footer .footer-row nav {
+    display: flex;
+    justify-content: space-between; /* Distribuir uniformemente */
+    flex-wrap: wrap; /* Adaptable a pantallas pequeñas */
+    gap: 20px; /* Espaciado entre columnas */
+}
+
+footer .footer-row nav div {
+    flex: 1; /* Ajustar columnas según espacio */
+    min-width: 200px; /* Ancho mínimo por columna */
+}
+
+footer .footer-row h4 {
+    font-size: 1.2rem; /* Tamaño más destacado */
+    margin-bottom: 10px; /* Separación del listado */
+    color: #333; /* Color para contraste */
+}
+
+footer .footer-row ul {
+    list-style: none; /* Quitar viñetas */
+    padding: 0;
+    margin: 0;
+}
+
+footer .footer-row ul li {
+    margin-bottom: 5px; /* Espaciado entre elementos */
+}
+
+footer .footer-row ul li a {
+    text-decoration: none; /* Sin subrayado */
+    color: #007BFF; /* Color de enlace */
+    transition: color 0.3s ease; /* Animación para hover */
+}
+
+footer .footer-row ul li a:hover {
+    color: #0056b3; /* Color al pasar el mouse */
+}
