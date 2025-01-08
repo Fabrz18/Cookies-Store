@@ -1,0 +1,48 @@
+/* Esta parte es del todo el menu*/
+
+header .principal-navigation nav{
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Esta parte es de las opciones: Inicio, Rewards, Help...*/
+header .principal-navigation nav #options{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style-type: none; 
+    margin-right: auto;
+}
+
+/*Aqui va la parte de login*/
+header .principal-navigation nav #icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style-type: none;
+    margin-right: 2%;
+}
+header .principal-navigation nav #logo{
+    list-style-type: none;
+    width:  69px;
+    height: 69px;
+    transition: none;
+}
+header .principal-navigation nav #logo img{
+    width:  69px;
+    height: 69px;
+    transition: none;
+}
+
+header .principal-navigation .principal-navigation-options{
+    color: #000000;
+    text-decoration: none;
+}
+
+header .principal-navigation .principal-navigation-options:hover{
+    color: #744141;
+    text-decoration: none;
+}
